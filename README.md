@@ -1,0 +1,3 @@
+# Unhandled Error in useReducer Reducer Function
+
+This repository demonstrates a potential issue with unhandled errors in a React 19 `useReducer` hook reducer function.  In previous versions, a thrown error from the reducer might not have caused a significant disruption. However, React 19 might have stricter error handling that leads to unexpected behavior if the reducer throws errors without proper error handling within the reducer itself.
